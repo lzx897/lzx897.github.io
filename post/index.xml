@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Paradise</title>
+    <link>http://lzx897.github.io/post/</link>
+    <description>Recent content in Posts on Paradise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Mar 2023 20:27:08 +0800</lastBuildDate><atom:link href="http://lzx897.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obversation about Homotopy Category</title>
+      <link>http://lzx897.github.io/post/obversation-about-homotopy-category/</link>
+      <pubDate>Tue, 21 Mar 2023 20:27:08 +0800</pubDate>
+      
+      <guid>http://lzx897.github.io/post/obversation-about-homotopy-category/</guid>
+      <description>Let $\mathcal{A}$ be an exact category such that for any two objects $A$ and $A&amp;rsquo;$ in $\mathcal{A}$, we have a predefined structure of abelian groups in each $\mathrm{Hom}\mathcal{A}(A,A&amp;rsquo;)$. And let $\mathrm{Kom}(\mathcal{A})$ be the category of chain complexes with values in $\mathcal{A}$. The classical definition of homtopy category is stated by setting an equivalence relation $\sim$ in each $\mathrm{Hom}{\mathrm{Kom}(\mathcal{A})}(A^\bullet,B^\bullet)$, i.e.: for any $f,g\in \mathrm{Hom}{\mathrm{Kom}(\mathcal{A})}(A^\bullet,B^\bullet)$, $f\sim g$ if and only if there exists a family of morphisms $s^i\in\mathrm{Hom}\mathcal{A}(A^i,B^{i-1})$ in such that $f^i-g^i=s^{i+1}\circ d_{A^\bullet}+d_{B^\bullet}^{i-1}\circ s^i$ in $\mathcal{A}$.</description>
+    </item>
+    
+    <item>
+      <title>Reformation of the Octahedral Axiom</title>
+      <link>http://lzx897.github.io/post/reformation-of-the-octahedral-axiom/</link>
+      <pubDate>Tue, 21 Mar 2023 20:27:08 +0800</pubDate>
+      
+      <guid>http://lzx897.github.io/post/reformation-of-the-octahedral-axiom/</guid>
+      <description>For any morphism $f:T\to S$ in the underlying triangulated category $D$, complete the (distinguished triangle) $T\to S\to R\xrightarrow{+1}$. If there exists a decomposition of $f$, i.e. $\exists X\in\mathrm{ob}(D)$ and $T\xrightarrow{\nu}X\xrightarrow{\gamma}S$ such that $f=\gamma\circ\nu$, then complete the (distinguished) triangles induced by $\nu$ and $\gamma$, i.e. $$T \xrightarrow{\nu} X \xrightarrow{\gamma&amp;rsquo;} S&amp;rsquo;\xrightarrow{+1}$$ and $$T&amp;rsquo; \xrightarrow{\nu&amp;rsquo;} X \xrightarrow{\gamma} S\xrightarrow{+1}$$. Do the same operation again, complete the (distinguished) triangle induced by $f&amp;rsquo;=\gamma&amp;rsquo;\circ\nu&amp;rsquo;$, i.e. $$T&amp;rsquo; \xrightarrow{\gamma&amp;rsquo;\circ\nu&amp;rsquo;}S&amp;rsquo; \xrightarrow{ y} R&amp;rsquo;\xrightarrow{+1}$$.</description>
+    </item>
+    
+  </channel>
+</rss>
