@@ -29,6 +29,8 @@
     },
     svg: {
       fontCache: 'global',
+    loader: {load: ['[tex]/ams','[tex]/AMScd']},
+    tex: {packages: {'[+]': ['ams', 'AMScd']}}
     }
   };
 </script>
@@ -89,7 +91,8 @@
           </div>
 
           
-              <div class="summary">Let $\mathcal{A}$ be an exact category such that for any two objects $A$ and $A’$ in $\mathcal{A}$, we have a predefined structure of abelian groups in each $\mathrm{Hom}\mathcal{A}(A,A’)$. And let $\mathrm{Kom}(\mathcal{A})$ be the category of chain complexes with values in $\mathcal{A}$. The classical definition of homtopy category is stated by setting an equivalence relation $\sim$ in each $\mathrm{Hom}{\mathrm{Kom}(\mathcal{A})}(A^\bullet,B^\bullet)$, i.e.: for any $f,g\in \mathrm{Hom}{\mathrm{Kom}(\mathcal{A})}(A^\bullet,B^\bullet)$, $f\sim g$ if and only if there exists a family of morphisms $s^i\in\mathrm{Hom}\mathcal{A}(A^i,B^{i-1})$ in such that $f^i-g^i=s^{i&#43;1}\circ d_{A^\bullet}&#43;d_{B^\bullet}^{i-1}\circ s^i$ in $\mathcal{A}$.</div>
+              <div class="summary">To aviod potential confusing, let’s begin with minimum requirement for building a homotopy category. Suppose $\mathcal{A}$ is an exact category such that for any two objects $A$ and $A’$ in $\mathcal{A}$, we have a predefined structure of abelian groups (or $\mathbb{Z}$-module, if you think this will make things more clear) in each $\mathrm{Hom}_\mathcal{A}(A,A’)$, and $\mathrm{Kom}(\mathcal{A})$ be the category of chain complexes with values in $\mathcal{A}$.
+The classical definition of homtopy category is written by setting an equivalence relation $\sim$ in each $\mathrm{Hom}(A^\bullet,B^\bullet)$, i.</div>
           
 
         </section>
@@ -106,22 +109,6 @@
 
           
               <div class="summary">For any morphism $f:T\to S$ in the underlying triangulated category $D$, complete the (distinguished triangle) $T\to S\to R\xrightarrow{&#43;1}$. If there exists a decomposition of $f$, i.e. $\exists X\in\mathrm{ob}(D)$ and $T\xrightarrow{\nu}X\xrightarrow{\gamma}S$ such that $f=\gamma\circ\nu$, then complete the (distinguished) triangles induced by $\nu$ and $\gamma$, i.e. $$T \xrightarrow{\nu} X \xrightarrow{\gamma’} S’\xrightarrow{&#43;1}$$ and $$T’ \xrightarrow{\nu’} X \xrightarrow{\gamma} S\xrightarrow{&#43;1}$$. Do the same operation again, complete the (distinguished) triangle induced by $f’=\gamma’\circ\nu’$, i.e. $$T’ \xrightarrow{\gamma’\circ\nu’}S’ \xrightarrow{ y} R’\xrightarrow{&#43;1}$$.</div>
-          
-
-        </section>
-    
-        
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/archive/'></a></h1>
-            <div class ="date">
-                <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">Jan 1, 0001</time>  
-            </div>
-          </div>
-
-          
-              <div class="summary"></div>
           
 
         </section>

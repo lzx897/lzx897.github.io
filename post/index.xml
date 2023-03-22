@@ -13,7 +13,8 @@
       <pubDate>Tue, 21 Mar 2023 20:27:08 +0800</pubDate>
       
       <guid>http://lzx897.github.io/post/obversation-about-homotopy-category/</guid>
-      <description>Let $\mathcal{A}$ be an exact category such that for any two objects $A$ and $A&amp;rsquo;$ in $\mathcal{A}$, we have a predefined structure of abelian groups in each $\mathrm{Hom}\mathcal{A}(A,A&amp;rsquo;)$. And let $\mathrm{Kom}(\mathcal{A})$ be the category of chain complexes with values in $\mathcal{A}$. The classical definition of homtopy category is stated by setting an equivalence relation $\sim$ in each $\mathrm{Hom}{\mathrm{Kom}(\mathcal{A})}(A^\bullet,B^\bullet)$, i.e.: for any $f,g\in \mathrm{Hom}{\mathrm{Kom}(\mathcal{A})}(A^\bullet,B^\bullet)$, $f\sim g$ if and only if there exists a family of morphisms $s^i\in\mathrm{Hom}\mathcal{A}(A^i,B^{i-1})$ in such that $f^i-g^i=s^{i+1}\circ d_{A^\bullet}+d_{B^\bullet}^{i-1}\circ s^i$ in $\mathcal{A}$.</description>
+      <description>To aviod potential confusing, let&amp;rsquo;s begin with minimum requirement for building a homotopy category. Suppose $\mathcal{A}$ is an exact category such that for any two objects $A$ and $A&amp;rsquo;$ in $\mathcal{A}$, we have a predefined structure of abelian groups (or $\mathbb{Z}$-module, if you think this will make things more clear) in each $\mathrm{Hom}_\mathcal{A}(A,A&amp;rsquo;)$, and $\mathrm{Kom}(\mathcal{A})$ be the category of chain complexes with values in $\mathcal{A}$.
+The classical definition of homtopy category is written by setting an equivalence relation $\sim$ in each $\mathrm{Hom}(A^\bullet,B^\bullet)$, i.</description>
     </item>
     
     <item>

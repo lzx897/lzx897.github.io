@@ -6,7 +6,8 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
 <meta name="viewport" content="width=device-width,minimum-scale=1">
-<meta name="description" content="Let $\mathcal{A}$ be an exact category such that for any two objects $A$ and $A&rsquo;$ in $\mathcal{A}$, we have a predefined structure of abelian groups in each $\mathrm{Hom}\mathcal{A}(A,A&rsquo;)$. And let $\mathrm{Kom}(\mathcal{A})$ be the category of chain complexes with values in $\mathcal{A}$. The classical definition of homtopy category is stated by setting an equivalence relation $\sim$ in each $\mathrm{Hom}{\mathrm{Kom}(\mathcal{A})}(A^\bullet,B^\bullet)$, i.e.: for any $f,g\in \mathrm{Hom}{\mathrm{Kom}(\mathcal{A})}(A^\bullet,B^\bullet)$, $f\sim g$ if and only if there exists a family of morphisms $s^i\in\mathrm{Hom}\mathcal{A}(A^i,B^{i-1})$ in such that $f^i-g^i=s^{i&#43;1}\circ d_{A^\bullet}&#43;d_{B^\bullet}^{i-1}\circ s^i$ in $\mathcal{A}$.">
+<meta name="description" content="To aviod potential confusing, let&rsquo;s begin with minimum requirement for building a homotopy category. Suppose $\mathcal{A}$ is an exact category such that for any two objects $A$ and $A&rsquo;$ in $\mathcal{A}$, we have a predefined structure of abelian groups (or $\mathbb{Z}$-module, if you think this will make things more clear) in each $\mathrm{Hom}_\mathcal{A}(A,A&rsquo;)$, and $\mathrm{Kom}(\mathcal{A})$ be the category of chain complexes with values in $\mathcal{A}$.
+The classical definition of homtopy category is written by setting an equivalence relation $\sim$ in each $\mathrm{Hom}(A^\bullet,B^\bullet)$, i.">
 <meta name="generator" content="Hugo 0.111.3">
 
 
@@ -29,6 +30,8 @@
     },
     svg: {
       fontCache: 'global',
+    loader: {load: ['[tex]/ams','[tex]/AMScd']},
+    tex: {packages: {'[+]': ['ams', 'AMScd']}}
     }
   };
 </script>
@@ -69,7 +72,7 @@
           ·
         </span>
         <span>
-          111 words
+          177 words
         </span>
         <span class="split">
           ·
@@ -84,7 +87,13 @@
 
 
     <div class="content">
-      <p>Let $\mathcal{A}$ be an exact category such that for any two objects $A$ and $A&rsquo;$ in $\mathcal{A}$, we have a predefined structure of abelian groups in each $\mathrm{Hom}<em>\mathcal{A}(A,A&rsquo;)$. And let $\mathrm{Kom}(\mathcal{A})$ be the category of chain complexes with values in $\mathcal{A}$. The classical definition of homtopy category is stated by setting an equivalence relation $\sim$ in each $\mathrm{Hom}</em>{\mathrm{Kom}(\mathcal{A})}(A^\bullet,B^\bullet)$, i.e.: for any $f,g\in \mathrm{Hom}<em>{\mathrm{Kom}(\mathcal{A})}(A^\bullet,B^\bullet)$, $f\sim g$ if and only if there exists a family of morphisms $s^i\in\mathrm{Hom}</em>\mathcal{A}(A^i,B^{i-1})$ in such that $f^i-g^i=s^{i+1}\circ d_{A^\bullet}+d_{B^\bullet}^{i-1}\circ s^i$ in $\mathcal{A}$. Obversed that if we rewrite each homotopy into $s^i: A^i\to B[-1]^i$, then the equivalence relation $\sim$ becomes $f^i-g^i=s^{i+1}\circ d_{A^\bullet}^i-d_{B^\bullet[-1]}^i\circ s^i$, i.e. the diagram $$\begin{matrix}A^i\xrightarrow{d^i_{A^\bullet}} &amp; A^{i+1}\ \downarrow{d}\end{matrix}$$</p>
+      <p>To aviod potential confusing, let&rsquo;s begin with minimum requirement for building a homotopy category.
+Suppose $\mathcal{A}$ is an exact category such that for any two objects $A$ and $A&rsquo;$ in $\mathcal{A}$, we have a predefined structure of abelian groups (or $\mathbb{Z}$-module, if you think this will make things more clear) in each $\mathrm{Hom}_\mathcal{A}(A,A&rsquo;)$, and $\mathrm{Kom}(\mathcal{A})$ be the category of chain complexes with values in $\mathcal{A}$.</p>
+<p>The classical definition of homtopy category is written by setting an equivalence relation $\sim$ in each $\mathrm{Hom}(A^\bullet,B^\bullet)$, i.e. for any $f^\bullet,g^\bullet\in \mathrm{Hom}(A^\bullet,B^\bullet)$, morphisms $f^\bullet\sim g^\bullet$ if and only if there exists a family of morphisms $s^i\in\mathrm{Hom}(A^i,B^{i-1})$ in such that $f^i-g^i=s^{i+1}\circ d_{A^\bullet}+d_{B^\bullet}^{i-1}\circ s^i$ in $\mathcal{A}$.</p>
+<p>Obversed that if we rewrite each homotopy into $s^i: A^i\to B[-1]^i$, then the equivalence relation $\sim$ becomes $f^i-g^i=s^{i+1}\circ d_{A^\bullet}^i-d_{B^\bullet[-1]}^i\circ s^i$. (Let $d^i_{B[-1]}:=-d_B^{i-1}$ just like what we do when defining triangulated categories.)</p>
+<p>Force $f^\bullet$ equivalent to $g^\bullet$ just like making $(s^i)_{i\in\mathbb{Z}}$ into a morphism between chain complexes, i.e.</p>
+<p>For a morphism $f^\bullet: A^\bullet\to B^\bullet$ we no longer require that the requirement for local commutative square $f^{i+1}\circ d_{A^\bullet}^i-d_{B^\bullet[-1]}^i\circ f^i$.</p>
+<p>#<a href="quasitag">homologicalAlgebra</a></p>
 
     </div>
 

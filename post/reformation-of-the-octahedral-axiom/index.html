@@ -29,6 +29,8 @@
     },
     svg: {
       fontCache: 'global',
+    loader: {load: ['[tex]/ams','[tex]/AMScd']},
+    tex: {packages: {'[+]': ['ams', 'AMScd']}}
     }
   };
 </script>
@@ -69,7 +71,7 @@
           ·
         </span>
         <span>
-          81 words
+          82 words
         </span>
         <span class="split">
           ·
@@ -85,6 +87,7 @@
 
     <div class="content">
       <p>For any morphism $f:T\to S$ in the underlying triangulated category $D$, complete the (distinguished triangle) $T\to S\to R\xrightarrow{+1}$. If there exists a decomposition of $f$, i.e. $\exists X\in\mathrm{ob}(D)$ and $T\xrightarrow{\nu}X\xrightarrow{\gamma}S$ such that $f=\gamma\circ\nu$, then complete the (distinguished) triangles induced by $\nu$ and $\gamma$, i.e. $$T \xrightarrow{\nu} X \xrightarrow{\gamma&rsquo;} S&rsquo;\xrightarrow{+1}$$ and $$T&rsquo; \xrightarrow{\nu&rsquo;} X \xrightarrow{\gamma} S\xrightarrow{+1}$$. Do the same operation again, complete the (distinguished) triangle induced by $f&rsquo;=\gamma&rsquo;\circ\nu&rsquo;$, i.e. $$T&rsquo; \xrightarrow{\gamma&rsquo;\circ\nu&rsquo;}S&rsquo; \xrightarrow{ y} R&rsquo;\xrightarrow{+1}$$. Then what the octahedral says is just $R=R&rsquo;$.</p>
+<p>#<a href="quasi-tag">triangulatedCategory</a></p>
 
     </div>
 
